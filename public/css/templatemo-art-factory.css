@@ -218,9 +218,9 @@ body {
 
 a.main-button-slider {
   font-size: 13px;
-  border-radius: 20px;
+  border-radius: 2px;
   padding: 12px 20px;
-  background-color: #f2910a;
+  background-color: #23486a;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -231,7 +231,7 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #fda403;
+  background-color: #3b6790;
 }
 
 a.main-button {
@@ -309,15 +309,15 @@ header
 }
 
 .background-header .main-nav .nav > li:hover > a {
-  color: #f2910a !important;
+  color: #23486a !important;
 }
 
 .background-header .main-nav .nav > li > ul > li:hover > a {
-  color: #f2910a !important;
+  color: #23486a !important;
 }
 
 .background-header .nav li a.active {
-  color: #f2910a !important;
+  color: #23486a !important;
 }
 
 .header-area {
@@ -391,7 +391,7 @@ header
 }
 
 .header-area .main-nav .nav li:hover a {
-  color: #f2910a;
+  color: #23486a;
 }
 
 .header-area .main-nav .nav li.submenu {
@@ -461,12 +461,12 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background: #f2910a;
+  background: #23486a;
 }
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #f2910a;
+  color: #23486a;
   padding-left: 25px;
 }
 
@@ -602,7 +602,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #f55858;
+  color: #23486a;
 }
 
 @media (max-width: 1200px) {
@@ -908,43 +908,43 @@ services
 #services {
   position: relative;
   padding: 120px 0px 90px 0px;
-  background: rgba(0, 136, 232, 1);
+  background: rgb(232, 178, 0);
   background: -moz-linear-gradient(
     -45deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
+    rgb(230, 168, 0) 0%,
+    rgb(230, 153, 11) 0%,
+    rgb(211, 163, 6) 100%
   );
   background: -webkit-gradient(
     left top,
     right bottom,
-    color-stop(0%, rgba(0, 136, 232, 1)),
-    color-stop(0%, rgba(0, 182, 198, 1)),
-    color-stop(100%, rgba(0, 136, 232, 1))
+    color-stop(0%, rgb(230, 168, 0)),
+    color-stop(0%, rgb(230, 153, 11)),
+    color-stop(100%, rgb(211, 163, 6))
   );
   background: -webkit-linear-gradient(
     -45deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
+    rgb(230, 168, 0) 0%,
+    rgb(230, 153, 11) 0%,
+    rgb(211, 163, 6) 100%
   );
   background: -o-linear-gradient(
     -45deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
+    rgb(230, 168, 0) 0%,
+    rgb(230, 153, 11) 0%,
+    rgb(211, 163, 6) 100%
   );
   background: -ms-linear-gradient(
     -45deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
+    rgb(230, 168, 0) 0%,
+    rgb(230, 153, 11) 0%,
+    rgb(211, 163, 6) 100%
   );
   background: linear-gradient(
     135deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
+    rgb(230, 168, 0) 0%,
+    rgb(230, 153, 11) 0%,
+    rgb(211, 163, 6) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0088e8', endColorstr='#0088e8', GradientType=1 );
 }
@@ -956,6 +956,7 @@ services
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
   padding: 40px 30px;
   text-align: center;
+  border-radius: 3%;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -971,7 +972,7 @@ services
 
 .service-item:hover .icon,
 .service-item:hover a.main-button {
-  background-color: #f2e394;
+  background-color: #3b6790;
 }
 
 .service-item .icon {
@@ -986,7 +987,7 @@ services
   margin: auto;
   position: relative;
   margin-bottom: 30px;
-  background: #ffc93c;
+  background: #23486a;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -1331,7 +1332,7 @@ footer .social li {
 footer .social li a {
   color: #fff;
   text-align: center;
-  background-color: #ff9a3c;
+  background-color: #ebc417;
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -1345,7 +1346,7 @@ footer .social li a {
 }
 
 footer .social li a:hover {
-  background-color: #0088e8;
+  background-color: #ff9a3c;
   color: #fff;
 }
 

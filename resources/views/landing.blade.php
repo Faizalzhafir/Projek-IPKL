@@ -20,7 +20,7 @@ https://templatemo.com/tm-537-art-factory
     <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/templatemo-art-factory.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('css/font-awesome.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="{{asset('css/owl-carousel.css')}}">
 
     </head>
@@ -53,7 +53,7 @@ https://templatemo.com/tm-537-art-factory
                             <li class="scroll-to-section"><a href="#about">Tentang</a></li>
                             <li class="scroll-to-section"><a href="#about2">Manfaat</a></li>
                             <li class="scroll-to-section"><a href="#services">TIM</a></li>
-                            <li class="scroll-to-section"><a href="">Login</a></li>
+                            <li class="scroll-to-section"><a href="{{ route('login') }}">Login</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -80,7 +80,7 @@ https://templatemo.com/tm-537-art-factory
                         <h1><strong>PKL SMKN 1 Kawali</strong></h1>
                         <p>Lebih  dari ratusan siswa di SMK Negeri 1 Kawali menemukan informasi Praktek Kerja Lapangan di website ini.Temukan berbagai informasi mengenai tempat Praktek Kerja Lapangan disini !</p>
                         <p>Pantengin Terus Ya!</p>
-                        <a href="#about" class="main-button-slider">Temukan Tempat</a>
+                        <a href="{{ route('login') }}" class="main-button-slider">Temukan Tempat</a>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
                         <img src="{{asset('images/slider-icon.png')}}" class="rounded img-fluid d-block mx-auto" alt="First Vector Graphic">
@@ -177,25 +177,28 @@ https://templatemo.com/tm-537-art-factory
                 </div>
                 <div class="owl-carousel owl-theme">
                     <div class="item service-item">
-                        <div class="icon">
+                        {{-- <div class="icon">
                             <i><img src="{{asset('images/service-icon-01.png')}}" alt=""></i>
-                        </div>
-                        <h5 class="service-title">LUKMAN NULHAKIM</h5>
-                        <p>PROGRAMMER</p>
+                        </div> --}}
+                        <img height="200" src="{{asset('images/luk.png')}}" alt="">
+                        <h5 class="service-title mt-2">LUKMAN NULHAKIM</h5>
+                        <p class="text-warning">PROGRAMMER</p>
                     </div>
                     <div class="item service-item">
-                        <div class="icon">
+                        {{-- <div class="icon">
                             <i><img src="{{asset('images/service-icon-02.png')}}" alt=""></i>
-                        </div>
-                        <h5 class="service-title">FITRIA LAILA P.</h5>
-                        <p>PROGRAMMER</p>
+                        </div> --}}
+                        <img height="200" src="{{asset('images/fit.jpg')}}" alt="">
+                        <h5 class="service-title mt-2">FITRIA LAILA P.</h5>
+                        <p class="text-warning">PROGRAMMER</p>
                     </div>
                     <div class="item service-item">
-                        <div class="icon">
+                        {{-- <div class="icon">
                             <i><img src="{{asset('images/service-icon-03.png')}}" alt=""></i>
-                        </div>
-                        <h5 class="service-title">FAIZ AL ZHAFIR</h5>
-                        <p>PROGRAMMER</p>
+                        </div> --}}
+                        <img height="200" src="{{asset('images/iz.jpg')}}" alt="">
+                        <h5 class="service-title mt-2">FAIZ AL ZHAFIR</h5>
+                        <p class="text-warning">PROGRAMMER</p>
                     </div>
                     <!-- <div class="item service-item">
                         <div class="icon">
@@ -422,23 +425,23 @@ https://templatemo.com/tm-537-art-factory
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12">
                         <div class="text-center">
-                            <p><strong>I-PKL</strong></p>
+                            <p class="mt-3"><strong>I-PKL</strong></p>
                         </div>
                         <p class="copyright">Copyright &copy; 2020 Art Factory Company 
                     
                     . Design: <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
                     <br><br>
                     <ul class="social">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fas fa-rss"></i></a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="text-center">
-                        <p><strong>PKL</strong></p>
+                        <p class="mt-3"><strong>PKL</strong></p>
                         <p class="text-warning mt-3">Pengertian</p>
                         <p class="text-warning mt-2">Tentang</p>
                         <p class="text-warning mt-2">Manfaat</p>
@@ -447,7 +450,7 @@ https://templatemo.com/tm-537-art-factory
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="text-center">
-                        <p><strong>DUKUNGAN</strong></p>
+                        <p class="mt-3"><strong>DUKUNGAN</strong></p>
                         <p class="text-warning mt-3">Hubungi Kami</p>
                         <p class="text-warning mt-2">Ada Keluahn?</p>
                         <p class="text-warning mt-2">Hubungi Kami</p>
