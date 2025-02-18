@@ -238,7 +238,7 @@ a.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #00b4c6;
+  background-color: #3b6790;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -249,7 +249,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #0088e8;
+  background-color: #3b6790;
 }
 
 button.main-button {
@@ -259,7 +259,7 @@ button.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 10px 20px;
-  background-color: #f55858;
+  background-color: #23486a;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -270,7 +270,7 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #0088e8;
+  background-color: #3b6790;
 }
 
 .section-heading h2 {
@@ -1220,43 +1220,43 @@ contact
 
 .contact-form {
   padding: 100px;
-  background: rgba(0, 136, 232, 1);
+  background: rgb(232, 178, 0);
   background: -moz-linear-gradient(
     -45deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
+    rgb(230, 168, 0) 0%,
+    rgb(230, 153, 11) 0%,
+    rgb(211, 163, 6) 100%
   );
   background: -webkit-gradient(
     left top,
     right bottom,
-    color-stop(0%, rgba(0, 136, 232, 1)),
-    color-stop(0%, rgba(0, 182, 198, 1)),
-    color-stop(100%, rgba(0, 136, 232, 1))
+    color-stop(0%, rgb(230, 168, 0)),
+    color-stop(0%, rgb(230, 153, 11)),
+    color-stop(100%, rgb(211, 163, 6))
   );
   background: -webkit-linear-gradient(
     -45deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
+    rgb(230, 168, 0) 0%,
+    rgb(230, 153, 11) 0%,
+    rgb(211, 163, 6) 100%
   );
   background: -o-linear-gradient(
     -45deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
+    rgb(230, 168, 0) 0%,
+    rgb(230, 153, 11) 0%,
+    rgb(211, 163, 6) 100%
   );
   background: -ms-linear-gradient(
     -45deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
+    rgb(230, 168, 0) 0%,
+    rgb(230, 153, 11) 0%,
+    rgb(211, 163, 6) 100%
   );
   background: linear-gradient(
     135deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
+    rgb(230, 168, 0) 0%,
+    rgb(230, 153, 11) 0%,
+    rgb(211, 163, 6) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0088e8', endColorstr='#0088e8', GradientType=1 );
 }

@@ -31,12 +31,28 @@ class LoginController extends Controller
         }
     }
     
-    public function dashboard(){
+    public function dashboard() {
         return view('dashboard');
     }
 
-    public function logout(){
+    public function logout() {
         Auth::logout();
-        return redirect()->route('login');
+        return view('landing');
+    }
+
+    public function info() {
+        return view('informasi.info');
+    }
+
+    public function form() {
+        return view('penilaian.form');
+    }
+
+    public function tempat() {
+        return view('tempat.tempat');
+    }
+
+    public function register() {
+        return view('auth.register');
     }
 }

@@ -18,10 +18,10 @@ https://templatemo.com/tm-537-art-factory
 
 -->
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('css/templatemo-art-factory.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('landing/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('landing/css/templatemo-art-factory.css')}}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="{{asset('css/owl-carousel.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('landing/css/owl-carousel.css')}}">
 
     </head>
     
@@ -83,7 +83,7 @@ https://templatemo.com/tm-537-art-factory
                         <a href="{{ route('login') }}" class="main-button-slider">Temukan Tempat</a>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                        <img src="{{asset('images/slider-icon.png')}}" class="rounded img-fluid d-block mx-auto" alt="First Vector Graphic">
+                        <img src="{{asset('landing/images/slider-icon.png')}}" class="rounded img-fluid d-block mx-auto" alt="First Vector Graphic">
                     </div>
                 </div>
             </div>
@@ -98,7 +98,7 @@ https://templatemo.com/tm-537-art-factory
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 col-md-12 col-sm-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <img src="{{asset('images/left-image.png')}}" class="rounded img-fluid d-block mx-auto" alt="App">
+                    <img src="{{asset('landing/images/left-image.png')}}" class="rounded img-fluid d-block mx-auto" alt="App">
                 </div>
                 <div class="right-text col-lg-5 col-md-12 col-sm-12 mobile-top-fix">
                     <div class="left-heading">
@@ -134,21 +134,21 @@ https://templatemo.com/tm-537-art-factory
                 <div class="left-text col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix">
                     <ul>
                         <li>
-                            <img src="{{asset('images/about-icon-01.png')}}" alt="">
+                            <img src="{{asset('landing/images/about-icon-01.png')}}" alt="">
                             <div class="text">
                                 <h6>Akses cepat informasi PKL</h6>
                                 <p>Informasi yang kami berikan memberikan kemudahan bagi siswa/i yang mengunjungi sistem ini,dengan informasi yang ringkas,rapi,dan runtut,sehingga cepatnya informasi yang didapat.</p>
                             </div>
                         </li>
                         <li>
-                            <img src="{{asset('images/about-icon-02.png')}}" alt="">
+                            <img src="{{asset('landing/images/about-icon-02.png')}}" alt="">
                             <div class="text">
                                 <h6>Informasi tempat PKL akurat</h6>
                                 <p>Kami memberikan informasi seputar PKL berdasarkan atas kesepakatan dan sampaian dari Wakasek dan Staff Hubin, SMKN 1 Kawali,sehingga keakuratan informasi sangat diperhatikan.</p>
                             </div>
                         </li>
                         <li>
-                            <img src="{{asset('images/about-icon-03.png')}}" alt="">
+                            <img src="{{asset('landing/images/about-icon-03.png')}}" alt="">
                             <div class="text">
                                 <h6>Fitur optimal untuk kebutuhan PKL</h6>
                                 <p>Kebutuhan akan proses persiapan untuk PKL, kami akan menyediakan beberapa fitur yang membantumu agar memudahkan proses rangkaian yang harus dilakukan oleh siswa/i</p>
@@ -157,7 +157,7 @@ https://templatemo.com/tm-537-art-factory
                     </ul>
                 </div>
                 <div class="right-image col-lg-7 col-md-12 col-sm-12 mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                    <img src="{{asset('images/right-image.png')}}" class="rounded img-fluid d-block mx-auto" alt="App">
+                    <img src="{{asset('landing/images/right-image.png')}}" class="rounded img-fluid d-block mx-auto" alt="App">
                 </div>
             </div>
         </div>
@@ -178,31 +178,31 @@ https://templatemo.com/tm-537-art-factory
                 <div class="owl-carousel owl-theme">
                     <div class="item service-item">
                         {{-- <div class="icon">
-                            <i><img src="{{asset('images/service-icon-01.png')}}" alt=""></i>
+                            <i><img src="{{asset('landing/images/service-icon-01.png')}}" alt=""></i>
                         </div> --}}
-                        <img height="200" src="{{asset('images/luk.png')}}" alt="">
+                        <img height="200" src="{{asset('landing/images/luk.png')}}" alt="">
                         <h5 class="service-title mt-2">LUKMAN NULHAKIM</h5>
                         <p class="text-warning">PROGRAMMER</p>
                     </div>
                     <div class="item service-item">
                         {{-- <div class="icon">
-                            <i><img src="{{asset('images/service-icon-02.png')}}" alt=""></i>
+                            <i><img src="{{asset('landing/images/service-icon-02.png')}}" alt=""></i>
                         </div> --}}
-                        <img height="200" src="{{asset('images/fit.jpg')}}" alt="">
+                        <img height="200" src="{{asset('landing/images/fit.jpg')}}" alt="">
                         <h5 class="service-title mt-2">FITRIA LAILA P.</h5>
                         <p class="text-warning">PROGRAMMER</p>
                     </div>
                     <div class="item service-item">
                         {{-- <div class="icon">
-                            <i><img src="{{asset('images/service-icon-03.png')}}" alt=""></i>
+                            <i><img src="{{asset('landing/images/service-icon-03.png')}}" alt=""></i>
                         </div> --}}
-                        <img height="200" src="{{asset('images/iz.jpg')}}" alt="">
+                        <img height="200" src="{{asset('landing/images/iz.jpg')}}" alt="">
                         <h5 class="service-title mt-2">FAIZ AL ZHAFIR</h5>
                         <p class="text-warning">PROGRAMMER</p>
                     </div>
                     <!-- <div class="item service-item">
                         <div class="icon">
-                            <i><img src="{{asset('images/service-icon-02.png')}}" alt=""></i>
+                            <i><img src="{{asset('landing/images/service-icon-02.png')}}" alt=""></i>
                         </div>
                         <h5 class="service-title">Fourth Service Box</h5>
                         <p>Fusce sollicitudin feugiat risus, tempus faucibus arcu blandit nec. Duis auctor dolor eu scelerisque vestibulum.</p>
@@ -430,7 +430,7 @@ https://templatemo.com/tm-537-art-factory
                         <p class="copyright">Copyright &copy; 2020 Art Factory Company 
                     
                     . Design: <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
-                    <br><br>
+                    <br>
                     <ul class="social">
                         <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
                         <li><a href="#"><i class="fab fa-facebook"></i></a></li>
@@ -462,21 +462,21 @@ https://templatemo.com/tm-537-art-factory
     </footer>
     
     <!-- jQuery -->
-    <script src="{{asset('js/jquery-2.1.0.min.js')}}"></script>
+    <script src="{{asset('landing/js/jquery-2.1.0.min.js')}}"></script>
 
     <!-- Bootstrap -->
-    <script src="{{asset('js/popper.js')}}"></script>
-    <script src="{{asset('js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('landing/js/popper.js')}}"></script>
+    <script src="{{asset('landing/js/bootstrap.min.js')}}"></script>
 
     <!-- Plugins -->
-    <script src="{{asset('js/owl-carousel.js')}}"></script>
-    <script src="{{asset('js/scrollreveal.min.js')}}"></script>
-    <script src="{{asset('js/waypoints.min.js')}}"></script>
-    <script src="{{asset('js/jquery.counterup.min.js')}}"></script>
-    <script src="{{asset('js/imgfix.min.js')}}"></script> 
+    <script src="{{asset('landing/js/owl-carousel.js')}}"></script>
+    <script src="{{asset('landing/js/scrollreveal.min.js')}}"></script>
+    <script src="{{asset('landing/js/waypoints.min.js')}}"></script>
+    <script src="{{asset('landing/js/jquery.counterup.min.js')}}"></script>
+    <script src="{{asset('landing/js/imgfix.min.js')}}"></script> 
     
     <!-- Global Init -->
-    <script src="{{asset('js/custom.js')}}"></script>
+    <script src="{{asset('landing/js/custom.js')}}"></script>
 
   </body>
 </html>
